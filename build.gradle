@@ -1,0 +1,13 @@
+plugins {
+  //  id 'org.jetbrains.kotlin.jvm' version '1.5.21'
+  id 'org.jetbrains.kotlin.jvm' version '1.5.30-RC'
+}
+
+repositories {
+  mavenCentral()
+}
+
+dependencies {
+  api "com.squareup.wire:wire-runtime:3.7.0"
+  testImplementation "junit:junit:4.13.2"
+}

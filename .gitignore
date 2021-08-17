@@ -1,0 +1,39 @@
+# Maven
+target
+pom.xml.*
+release.properties
+gen-external-apklibs
+
+# Gradle
+.gradle
+build/
+local.properties
+gradlew.bat
+/reports/
+
+# Gradle Profiler
+profile-out*
+gradle-user-home
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipl
+*.ipr
+*.iws
+captures/
+classes/
+idea-classes/
+coverage-error.log
+.shelf/
+thread-dump.zip
+
+# Steve Jobs
+.DS_Store
+
+# Emacs
+*~
+.#*
+
+# Vim
+*.sw[op]
